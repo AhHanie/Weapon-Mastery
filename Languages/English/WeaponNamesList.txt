@@ -1,700 +1,1737 @@
-Rose
-Spite
-Dakka
-Payne
-Dentist
-Wolf
-Cheese
-Death
-Razor
-Redeemer
-Shredder
-Baguette
-Firefox
-Tynan
-Freezer
-Waepon
-Ghost
-Big Mack
-Silver
-Luci
-Phoenix
-Excelsior
-Big Boom
-Frenzy
-M4A1
-Echo
-Despair
-Lightbane
-Fury
-Endbringer
-Shadowfang
-Heartstriker
-Lazarus
-Hellfire
-Dawnbreaker
-Celeste
-Chaos
-Darkness
-Crossfire
-Daddy
-Omega
-Infinity
-Destiny
-Whispers
-Equalizer
-Boomer
-Big Daddy
-Alpha
-Beta
-Skull Crusher
-Deathbringer
-Justice
-Armageddon
-Whirlwind
-Severance
-Hope's End
-Worldslayer
-Cyclone
-Nethersbane
-Comet
-Doomblade
-The End
-Vanquisher
-Stormcaller
-Warbringer
-Exterminator
-Last Laugh
-Typhoon
-Widow Maker
-Skullcleaver
-Betrayer
-End Of Dreams
-Cataclysm
-Disturbance
-Dragonkiller
-Silence
-Headhunter
-The Judge
-Bloodrage
-Serenity
-Damnation
-Fate
-Moonsight
-Light Neutralizor
-Seer
-Gun Of The Sun
-Disintegrator
-Trinity
-Judgement
-Falcon
-Amnesia
-Retribution
-Devotion
-Oblivion
-Infamy
-Eclipse
-Carbon
-Conqueror
-Nightmare
-Intervention
-Cosmos
-Apocalypse
-Enigma
-Willbreaker
-Rapture
-Destruction
-Snake
-Misery's End
-Valkyrie
-Sorrow
-Discharge
-Epilogue
-Vortex
-Toots
-Purifier
-Devil
-Carnage
-Eraser
-Swarm
-Storm
-Stret Sweper
-Sweeper
-Demolisher
-Plague
-Sinster
-Custom
-Cyclops
-Severe
-Lightning
-Sanity
-Abstract
-Sensei
-Onesan
-Void
-Sonar
-Odin
-Ares
-Gungnir
-Medusa
-Twilight
-Moon
-Contrast
-Hollow
-Tin Can
-Limbo
-Magma
-Cruiser
-Battery
-Malice
-Deep Freezer
-Sync
-Wizard
-Witch
-Yayo
-Sunset
-Scorch
-Jade
-Quota
-Randy
-Cassandra
-Phoebe
-Lament
-Demise
-Big Game
-Ashes
-Betty
-Big Betty
-Justifier
-Reckoning
-Sugar
-Spitfire
-Boomstick
-Crimson
-Sweetie
-Sassy
-Sentinel
-Mercury
-Allegiance
-Grace
-Obsidian
-Glass
-Tremor
-Treachery
-Nirvana
-Peacemaker
-Remorse
-Equality
-Scar
-Quick Fix
-Extinction
-Big Bertha
 Abomination
-Sandstorm
-Harmony
-Desolation
-Legacy
-Suspension
-Bloodweep
-Finality
-K9
-Dusk
-Deformed
-Hunger
-Leviathan
-Raptor
-Crane
-Kraken
-Fenrir
-Zeus
-Dominance
-Humongous
-Stormedge
-Braindead
-Winter's Bite
-Whirlwind
-Decimation
-Windreaper
-Retirement
-Ash
-The Oculus
-Blinkstrike
-Prophecy
-Monsoon
-Faithkeeper
-Pride
-Undoing
-Blackout
-Orbit
-Guillotine
-Wicked
-Agatha
-Old Age
-Persuasion
-Savagery
-Reaper
-Chasm
-Mercy
-Catastrophe
-Legionaire
-Harbinger
-Pork-Chopper
-Requiem
-Kinslayer
-Emergency
-Harvester
-Ragnarok
-Rage
-Chance
-Dice
-Exoricst
-Slice
-Revenant
-Meat Grinder
-Solar
-Soul Reaper
-Jim
-Cassie
-Control
-Blink
-Cerberus
-Shade
-Joker
-Doom
-Solo
-Relic
-Power
-Miracle
-Debts
-The Fool
-Jet
-Glacier
-Economic
-War
-Paradox
-Eyecutter
-Shieldbearer
-Bad Medicine
-Heat
-Matilda
-Brutalizer
-Steel
-Plasteel
-Deadeye
-Corruption
-Annie
-Downpour
-Enterprise
-Siphon
-Dreamhunter
-Dragon
-Gazelle
-Salvation
-Monke
-Tribute
-Trauma
-Dismay
-Frost
-Replica
-Snape
-Fusion
-Staircase
-Onisan
-Onesan
-Sofa
-Fortuna
-Keepsake
-Soulless
-Chains
-Chicken
-Ruby
-Taxes
-Timmy
-Loki
-Bart
-Peace
-Toxicity
-Heart
-Liver
-Lung
-Brain
-Kidney
-Stomach
-Warzone
-Aftermath
-Math
-Science
-Sapphire
-Topaz
-Bones
-Altar
-Blood
-Tainted
-Link
-Ryse
-Rise
-Space
-Junk
-Cortex
-Neo
-Infection
-Cherry
-Professor
-Effect
-Distortion
-Prosperity
-Fragment
-Bubble
-Joy
-Outside
-Inside
-Tank
-Bloody
-Test
-Emotion
-Vain
-Pawn
-Sphere
-Tesseract
-Unity
-Sequence
-Assault
-Transparent
-Casualty
-Practical
-Survival
-Ambiguity
-Beam
-Rhythm
-Conventional
-Sound
-Notorious
-Medieval
-Conflict
-Nuclear
-Rotten
-Critical
-Sin
-Idea
-Sanctuary
-Glory
-Concept
-Meme
-Personal
-Software
-Symptom
-Hotdog
-Shark
-Physics
-Robot
-Experiment
-Foreigner
-Element
-Reality
-Flesh
-Director
-Ribbon
-Sausage
-Warp
-Core
-Elite
-Frost Prime
-Sanguine
-Health
-Mana
-Experience
-Classic
-Classical
-Modern
-Closure
-Flames
-Evil
-Helium
-Nox
-Halo
-Rainbow
-Aurora
-Comet
-Star
-Luminous
-Lore
-Disease
-Apex
-Predator
-Eldritch
-Honor
-Shimmer
-River
-Annihilation
-Cutstrike
-Venomwire
-Scumpus
-Slybone
-Ragnor
-Grim
-Omen
-Amaranth
-Darkmore
-Sable
-Zayne
-Aries
-Raven
-Aura
-Wood
-Law
-Nebula
-Diablo
-Diablos
-Chalice
-Griffin
-Lobo
-Wrath
-Pandora
-Duke
-Blight
-Jinx
-Dream
-Rogue
-Dread
-Ripper
-Onyx
-Gunther
-Artemis
-Art
-Bob
-Levi
-Crystal
-Duchess
-Count
-Countess
-Dracula
-Tiny
-Lunar
-Kratos
-Teacher
-Radiation
-Old
-Pollution
-Antimatter
-Jelly
-Tactics
-Orthodox
-Deadly
-Regular
-Regularity
-Horizon
-Soul
-Wealth
-Unicorn
-Sunday
-Riot
-Exception
-Exceptional
-Code
-Reactor
-Energy
-Crisis
-Prince
-Princess
-Tumour
-Disco
-Light
-Order
-Genie
-Love
-Hugs
-Rumor
-Antimatter
-Drought
-Draft
-Clone
-John
-Johnny
-Solaris
-Log
-Entertainer
-Defender
-Cross
-Ominous
-Elder
-Cookie
-Queenie
-Dino
-Thief
-Handsome
-Bo
-Chuck
-Major
-Lucky
-Zero
-Beard
-Chef
-Admiral
-Hurricane
-Jazzy
-Slick
-Dandy
-Pops
-Sparrow
-Slayer
-King
-Red
-Dusty
-Beauty
-Magica
-Fire
-Flash
-Oracle
-Coyote
-Bobo
-Buddy
-Old Buck
-Blessed
-Honey
-Vulture
-Serpent
-Deedee
-Ginger
-Nimble
+Absolution
+Abstract
 Ace
-Undertaker
-Madness
-Dodo
-Hog
-Artsy
-Rip
-Hawkeye
-Blackjack
-Bullseye
-Bunny
-Torch
-Gigi
-Bingo
-Monk
-Memo
-Iron
-Shadow
-Jumbo
-The Butcher
-Butcher
-Candy
-Sage
-Dumdum
-Darlin
-Special
-Belle
-Thunder
-Hound
-Mac
-Buster
-Kiki
-Pyro
-Pogo
-Stuffy
-Mayor
-Fox
-The Grim
-Camille
-Cryo
-Gonzo
-Doc
-The Thogomizer
-Alfred
-Neutral
+Adad
+Adamant
+Administer of Pain
+Admiral
+Aestuum
+Aftermath
+Agatha
 Aggressive
 Aggressor
-Seeker
-Collateral
-Curves
-Labor
-Anti Social
-Social
-Clever
-Intelligence
-Scourge
-Bloodbath
-Suffering
-Ebony Suffering
-Horror
-Executioner
-Limb Eliminator
-Neckchopper
-Bane of Existence
-Strife
-Shatterskull
-Merciless Fate
-Immortal
 Agony
-Thoughtstealer
-Spirit
-Phantom
-Bone Saw
-Frostreaper
-Frostmourne
-Painforger
-Skinripper
-Ripper
-Gravedigger
-Widowmaker
-Defiler
-Automatic
-Corpse Tyrant
-Eternal Punishment
-Eternal
-Punishment
-Punisher
-Last Breath
-Red Queen
-Blue Rose
-Yamato
-Bad News
-Buck Thunder
-Thor
+Ajax
+Alaska
+Alexander
+Alfred
+Allegiance
+Alpetragius
+Alpha
+Alphonsus
+Altar
+Amaranth
+Amazon
+Ambassador
+Ambiguity
 Amigo
-Last Word
-Knight's Fall
-Vengeance
-Frankenstein
-The Chancellor
-The Void
-Bloodfury
-Lockjaw
-Stormfury
-Ole Betsy
-Shadow Steel
-Ubiquity
-Shadow Fang
-Iron Whisper
-Crimson Vow
-Void Reaper
-Storm Edge
-Blight Fang
-Frost Rend
-Soul Cleaver
+Amnesia
+Andernach
+Anger
+Annie
+Annihilation
+Antares
+Antelope
+Anti Social
+Antimatter
+Anvil of Conviction
+Anvil of Faith
+Apex
+Apocalypse
+Appalacia
+Appocoliptic Fury
+Appocoliptic Orgy
+Arana
+Ararat
+Aras an Uachturain
+Archer
+Arcos
+Ardent Devotion
+Ardent Ecstasy
+Ardent Fury
+Ardent Retribution
+Ares
+Argus
+Ariadaeus
+Ariel
+Aries
+Aristarchus
+Aristillus
+Arizona
+Ark Royal
+Armageddon
+Armagh
+Armor
+Arrogant
+Arrowlet
+Art
+Artemis
+Artillery
+Artsy
+Arzachel
+Ash
 Ash Breaker
-Night Howl
-Skyrend
-Gravemaw
-Emberlash
-Stormpiercer
-Voidbane
-Frostbite
-Ironbark
-Venomburst
-Runeshear
-Bloodsong
-Dreadspire
-Iron Mirage
-Skullrender
-Nightveil
-Blazefury
-Storm Herald
-Thornlash
-Echofang
-Mooncleaver
 Ash Whisper
-Shattercry
-Grimhowl
+Ashanti
+Ashes
+Assault
+Atlas Shrugs
+Audacious
+Aura
+Aurora
+Autolycus
+Automatic
+Avenger
+Avenging Fury
+Awambundu
+Awesome Hamster Party
+Axe of Desolation
+Axe of Reprisal
+Axe of Retribution
+Azrael
+Bad Medicine
+Bad News
+Baguette
+Bane of Existence
+Bart
+Battery
+Battle Road
+Beachem
+Beam
+Beard
+Beauty
+Beholder
+Belknap
+Belle
+Benares
+Bestower of Pain
+Beta
+Betrayer
+Betty
+Bianchini
+Big Bertha
+Big Betty
+Big Boom
+Big Daddy
+Big Game
+Big Mack
+Big Wreck
+Biko
+Bingo
+Bishop of Brewing
+Bitburger Pils
+Black Arrow
+Black Dragon
+Black Horse
+Black Prince
+Black Pudding
+Blackadder
+Blackjack
+Blackout
+Blaster
+Blazefury
+Bleak
+Blessed
+Blessed Boar
+Blessed Hops
+Blight
+Blight Fang
+Blind to Mercy
+Blink
+Blinkstrike
+Blood
+Blood Oath
+Bloodbath
+Bloodfury
+Bloodletter
+Bloodrage
+Bloodsong
+Bloodweep
+Bloody
+Blue Dragon
+Blue Jacket
+Blue Rose
+Bluestreak
+Blurr
+Bo
+Boater
+Bob
+Bobo
+Bond of Bliss
+Bond of Consecration
+Bond of Elation
+Bond of Fury
+Bond of Madness
+Bone Saw
 Bonebite
-Warpbrand
+Bones
+Bonestell
+Booger Hole
+Boomer
+Boomstick
+Bozeman
+Brain
+Braindead
+Brainstorm
+Brattain
+Braver
+Brawn
+Break
+Bringer of Despair
+Bringer of Fury
+Bringer of Madness
+Bringer of Victory
+Broadcast
+Broadside
+Broken Blade
+Broken Clown
+Bruiser
+Brutalizer
+Bubble
+Buck Thunder
+Budapest
+Buddy
+Bullseye
+Bumblebee
+Bunny
+Burning Fur
+Burnt Blood
+Buster
+Butcher
+Buxley
+Cadogan
+Cajon
+Californio
+Camille
+Candy
+Cappa
+Carbon
+Cardinal's Chosen
+Cardinal's Storm
+Caribou
+Carlisle
+Carnage
+Casa de la Guerra
+Cassandra
+Cassie
+Cassini
+Casualty
+Cat Memes
+Cataclysm
+Catastrophe
+Catchon
+Cause And Effect
+Cavalry
+Celeste
+Celestial
+Centaurum
+Centurion
+Cerberus
+Chains
+Chains of Devotion
+Chains of Ecstasy
+Chains of Fervor
+Chains of Rapture
+Chalice
+Challenger
+Champion of the Seas
+Chance
+Chaos
+Chariot of Fame
+Charioteer
+Charm
+Charter Oak
+Chasm
+Cheese
+Cheetah
+Chef
+Chekov
+Cherry
+Cheyenne
+Chicken
+Chicken Spork
+Chiokis
+Chocolate Shake
+Chuck
+Classic
+Classical
+Clavius
+Clever
+Clone
+Closure
+Code
+Coeur de Lion
+Cohort of Destruction
+Cohort of Ecstasy
+Cold Fusion
+Collateral
+Columbia
+Comet
+Competencienceivable
+Concept
+Conferer of Elation
+Conferer of Madness
+Conferer of Pain
+Conflict
+Conqueror
+Conquest
+Constellation
+Cont Milkstop
+Contest
+Contrast
+Control
+Conventional
+Cookie
+Copulating Sister
+Core
+Corpse Tyrant
+Corruption
+Cortes
+Cortex
+Cosmos
+Cossack
+Count
+Count of
+Countess
+Courageous
+Cousteau
+Covarrubias
+Coventry
+Covington
+Coyote
+Cozy Skegness
+Craiton
+Crane
+CrapBucket
+Crazed in Battle
+Crest of the Wave
+Crimson
+Crimson Vow
+Crisis
+Critical
+Cross
+Crossfire
+Cruiser
+Crusader
+Crusading Master
+Cryo
+Crystal
+Cube
+Curie
+Curves
+Custom
+Cutstrike
+Cutty Sark
+Cyclone
+Cyclops
+Daddy
+Dague
+Dakka
+Dakota
+Dakotak
+Dallas
+Damnation
+Damnation's Fury
+Damsel
+Dandy
+Darius
+Darkhorse
+Darkmore
+Darkness
+Darlin
+Dartmouth
+David
+Dawnbreaker
+De Conde
+Deadeye
+Deadly
+Deaf to Reason
+Death
+Deathbringer
+Debacle
+Debts
+Decimation
+Deedee
+Deep Freezer
+Defender
+Defiance
+Defiant
+Defiler
+Deformed
+Delambre
+Deliverer of Ecstasy
+Deliverer of Elation
+Deliverer of Pain
+Delta
+Demise
+Demolisher
+Dentist
+Derfflinger
+Derogatory Manatee
+Desert's Edge
+Designize
+Desolation
+Despair
+Despicable Ecstasy
+Despicable Heathen
+Desslok
+Destiny
+Destroy
+Destruction
+Destructor
+Detroyat
+Devil
+Devotion
+Diablo
+Diablos
+Diamond
+Dice
+Dictator
+Ding Dong
+Dino
+Diora
+Dire
+Director
+Dirk
+Discharge
+Disciple of Destruction
+Disciple of Distillation
+Disciple of Ecstasy
+Disciple of Pain
+Disco
+Disease
+Disintegrator
+Dismay
+Distortion
+Disturbance
+Divine Fury
+Divine Retribution
+Divine Sodomizer
+Divine Wrath
+Doc
+Dodo
+Dominance
+Dominating Sister
+Dominator
+Dominion
+Donegal
+Doom
+Doomblade
+Doppleganger
+Double Cheeseburger
+Downpour
+Dracula
+Draft
+Dragon
+Dragonkiller
+Drake
+Dread
+Dreadnought
+Dreadspire
+Dream
+Dreamhunter
+Drip Fistmix
+Drone
+Drought
+Drusus
+DuQuesne
+Duchess
+Duck Butt
+Duke
+Duke of
+Dumdum
+Dunsany
+Durandel
+Dusk
+Dusty
+Eagle
+Earhart
+Earthquake
+Ebony Suffering
+Echo
+Echofang
+Eclipse
+Economic
+Ecstasy
+Eetaa
+Effect
+Elastic Scattering
+Elder
+Eldritch
+Element
+Elemental Agony
+Elemental Fervor
+Elemental Fury
+Elemental Wrath
+Eliminator
+Elite
+Emberlash
+Emden
+Emergency
+Emotion
+Emperor
+Empress
+Empress of the Seas
+Enchanter
+End Of Dreams
+Endbringer
+Energy
+Energy Duck
+Energy Level
+Enforcer
+Enigma
+Entente
+Enternal
+Enterprise
+Entertainer
+Epidemic
+Epigenes
+Epilogue
+Epsilon
+Equality
+Equalizer
+Equinox
+Eradicator
+Eraser
+Eratosthenes
+Erbacher Pils
+Erewhon
+Erin
+Erwhon
+Escalante
+Escape
+Eta
+Eternal
+Eternal Punishment
+Etzel
+Evangelical Devotion
+Evangelical Ecstasy
+Evangelical Fury
+Evangelical Retribution
+Evening Star
+Evil
+Exalted Seduction
+Excalibur
+Excel
+Excelsior
+Exception
+Exceptional
+Excessive Fervor
+Executioner
+Exeter
+Exoricst
+Expansion
+Experience
+Experiment
+Explorer
+Exterminator
+Extinction
+Eyecutter
+Faceless Chaos
+Fairfield
+Fairhaven
+Faithkeeper
+Falchion
+Falcon
+Fallout
+Famine
+Fanatic Devotion
+Far Star
+Farnese
+Fartknocker
+Fate
+Fear
+Fear Factor
+Fearless
+Fencer
+Fenrir
+Fermanagh
+Fertile Nuclide
+Fervid Devotion
+Fervid Ecstasy
+Fervid Fury
+Fervid Retribution
+Feta
+Fiery Cross
+Finality
+Firaxis
+Fire
+Firefox
+Firestorm
+Fission Energy
+Fission Reaction
+Flagstaff
+Flame of Corruption
+Flame of Devotion
+Flame of Fervor
+Flame of Perversion
+Flame of Wrath
+Flames
+Flash
+Fleetwing
+Flesh
+Flying Cloud
+Flying Spur
+Flying Topsoil Club
+Foreigner
+Formidable
+Fortress of Agony
+Fortress of Pain
+Fortuna
+Fox
+Fragment
+Frankenstein
+Franklin
+Freeze
+Freezer
+Freighter
+Frenzy
+Frontier
+Frost
+Frost Prime
+Frost Rend
+Frostbite
+Frostmourne
+Frostreaper
+Furious
+Fury
+Fusion
+Gage
+Galactic Traveler
+Gamma
+Gange
+Gas-Cooled Reactor
+Gatlantis
+Gauntlet
+Gavilan
+Gazelle
+Genie
+Geronimo
+Get A Life
+Gherkin Place
+Ghost
+Gigi
+Gilde Ratskeller
+Ginger
+Giotto
+Glacier
+Glak Fundboat
+Glass
+Glenveigh
+Glorioso
+Glorious
+Glory
+Glory of the Seas
+Gloucester
+Gold Dragon
+Gomtuu
+Gonzo
+Gorce
+Gossamer
+Grace
+Gravedigger
+Gravemaw
+Green Dragon
+Grenadier
+Griffin
+Grim
+Grimhowl
+Grin'Ki
+Gryphon
+Guardian of Corruption
+Gudrid
+Guillotine
+Gun Of The Sun
+Gungnir
+Gunther
+Hachiman
+Hadrian
+Hailstorm
+Halo
+Hamburger Tuesday
+Hammer of Corruption
+Hammer of Desolation
+Hammer of Devotion
+Hammer of Elation
+Hammer of Fervor
+Hammer of Havoc
+Hammer of Justice
+Handsome
+Harbinger
+Harmony
+Harpy
+Harvester
+Hate
+Hathor
+Havoc
+Hawke
+Hawkeye
+Hawkins
+Headhunter
+Health
+Heart
+Heartstriker
+Heat
+Heavy Assault
+Hektor
+Helion
+Helium
+Hellfire
+Hensley
+Herald of the Morning
+Hercules
+Hermes
+Hermione
+Hero
+Herschel
+Hide the Salami
+Highlander
+Hill Giant
+Hippocrates
+Hiroshima
+Hobart
+Hog
+Hole Jumper
+Hollings
+Hollow
+Holsten Pilsener
+Holy Boar
+Holy Hops
+Holy Mistress
+Holy Whore
+Homocidal Whore
+Honey
+Honor
+Hood
+Hope's End
+Horizon
+Hornblower
+Horrendous
+Horrible
+Horror
+Hotdog
+Hound
+Howe
+Huff Glassmont
+Hugs
+Humongous
+Humorum
+Hunger
+Hurricane
+Ice Cold Beer
+Icon of Ecstacy
+Icon of Labor
+Icon of Pain
+Icon of Refreshment
+Idaho
+Idea
+Illustrious
+Imbrium
+Immortal
+Imperial
+Implacable
+Improbable
+Indefatigable
+Independence
+India
+Indiana
+Indomitable
+Infamy
+Infantry
+Infection
+Infinity
+Inflexible
+Initiate of Elation
+Initiate of Fervor
+Initiate of Fury
+Initiate of Industry
+Initiate of Pain
+Initiate of Retribution
+Initiate of Sodomy
+Injection
+Inquisitor
+Inside
+Intelligence
+Intervention
+Invidia
+Invincible
+Iridium
+Iron
+Iron Death
+Iron Duke
+Iron Golem
+Iron Lady
+Iron Mirage
+Iron Whisper
+Ironbark
+Irouhd
+Irrational Spite
+Isandlwhana
+Ivan
+Jade
+Jamaica
+Jazzy
+Jelly
+Jerky Beefhunter
+Jester
+Jesus of Bacon Lake
+Jet
+Jim
+Jinx
+John
+Johnny
+Joker
+Joy
+Joyful Waste
+Judgement
+Juggernought
+Jugurtha
+Jumbo
+Junk
+Justicar
+Justice
+Justifier
+K9
+Kadiri
+Kao'la
+Kaon
+Katabatic
+Kearsarge
+Keen Brutality
+Keepsake
+Keiler Weissbier
+Kendari
+Kennedy
+Kent
+Kenya
+Kidney
+Kiki
+Kilshannig
+King
+King George V
+Kinslayer
+Kitkun
+Knight
+Knight's Fall
+Knock Out
+Kodiak's Rage
+Komsomolisk
+Kongo
+Koranak
+Korolev
+Kraken
+Kratos
+LNG'WE'CHI
+La Purisma Conception
+Labor
+Lady Belle
+Lady Jane
+Lady Shame
+Lamartine
+Lament
+Large Fries
+Larisi
+Last Breath
+Last Laugh
+Last Word
+Latona
+Law
+Lazarus
+Leander
+Leboath
+Leeds
+Legacy
+Legionaire
+Leitrim
+Leix
+Leo Minor
+Lepus
+Lethal
+Levi
+Leviathan
+Lias
+Libertas
+Libitina
+Libra
+Light
+Light Neutralizor
+Lightbane
+Lightning
+Lilith
+Lima
+Limb Eliminator
+Limbo
+Link
+Lion
+Liver
+Liverpool
+Lobo
+Lockjaw
+Log
+Loki
+Lord of the Isles
+Lord's Grip
+Lore
+Los Lobos
+Los Osos
+Lothair
+Love
+Lua
+Luci
+Lucifer
+Lucina
+Lucky
+Luminous
+Luna
+Lunar
+Lung
+Lupercus
+Lupus
+Lusting Sister
+Lynx
+Lyra
+Lysander
+M'Yengh
+M4A1
+Mac
+Macrobius
+Madness
+Magica
+Maginus
+Magma
+Magna
+Magnificent
+Maguell
+Maia
+Maiesta
+Mailed Response
+Majestic
+Major
+Malahide
+Malevolence
+Malice
+Mana
+Manes
+Mania
+Manic
+Marcanos
+Marica
+Markab
+Mars
+Maryland
+Math
+Matilda
+Matrix
+Matronae
+Mattatha
+Matuta
+Maul of Madness
+Maul of Perversion
+Maul of Retribution
+Maul of Ruin
+Mavors
+Maximus
+Mayor
+Mazor
+Mckinnley
+Meat Grinder
+Meath
+Medarussa
+Medieval
+Medii
+Meditrina
+Medusa
+Mefitis
+Mehola
+Melbourne
+Melbourne Beach
+Melite
+Melki
+Mellona
+Meme
+Memo
+Mena
+Menkalinan
+Menkar
+Mens
+Mensa
+Mephaath
+Mephitis
+Merak
+Mercenary
+Merciless Death
+Merciless Fate
+Mercury
+Mercy
+Meronoth
+Meroz
+Merrimack
+Merrit Island
+Meteor
+Mezobaite
+Mibzar
+Micco
+Micheltorena
+Micmash
+Mijamin
+Milan
+Mims
+Minister
+Miracle
+Miramar
+Mirrimac
+Misery's End
+Missouri
+Mittannic
+Mobile Dock
+Modern
+Mograth
+Mogratti
+Mojave
+Monarch
+Monk
+Monke
+Monoceros
+Monsoon
+Monterey
+Moon
+Mooncleaver
+Moonsight
+Morning Star
+Morta
+Mosquitoville
+Mountaineer
+MucasPuller
+Murzim
+Mxlppxl
+Naarai
+Naboth
+Naggai
+Naska
+Nazirite
+Neballat
+Nebula
+Nebularum
+Neckchopper
+Nelson
+Neneveh
+Neo
+Nethersbane
+Neutral
+New Crust Sensation
+Neziah
+Niagara
+Nibbly
+Night Howl
+Nighthawk
+Nightingale
+Nightmare
+Nightveil
+Nimble
+Ninja
+Nirca
+Nirvana
+No Surrender
+Nobah
+Nobel
+Northern Light
+Notorious
+Nox
+Nubium
+Nuclear
+Nuclear Reactor
+Nuclear Waste
+Numb to Pain
+Oberth
+Oblivion
+Observer
+Obsidian
+Occupation
+Ocean Telegraph
+Octagon
+Octurion
+Odin
+Oettinger Pils
+Old
+Old Age
+Old Buck
+Ole Betsy
+Omaha
+Omega
+Omen
+Ominous
+Onesan
+Onisan
+Onyx
+Optine
+Oracle
+Orbit
+Order
+Orgy of Fury
+Orgy of Pain
+Orgy of Seduction
+Orthodox
+Osprey
+Outside
+Ozem
+Ozni
+Paarai
+Packard Bell's Revenge
+Pagh
+Painforger
+Pallas
+Palm Bay
+Pandora
+Paradox
+Paranoia
+Parnassus
+Pasa del Norte
+Pasatiempo
+Patrick
+Patrick Henry
+Patriot
+Patroller
+Paul
+Paulaner Weizen
+Pawn
+Payne
+Peace
+Peacemaker
+Pentagon
+Peralta
+Personal
+Persuasion
+Pestilence
+Pesto Golden Pest
+Peter
+Phalanx
+Phantom
+Phoebe
+Phoenix
+Photon
+Physics
+Piccolomini
+Plague
+Plain Song
+Plasteel
+Pleiades
+Pogo
+Poison
+Polar Star
+Pollution
+Polygon
+Pompey
+Pontiac
+Pops
+Pork-Chopper
+Port St. John
+Posidonius
+Positron
+Power
+Powerful
+Powerscourt
+Practical
+Predator
+Presbyopia
+Presidio
+Pride
+Priestess of Elation
+Priestess of Fervor
+Priestess of Seduction
+Primus
+Prince
+Prince Adrian
+Prince of Thieves
+Princess
+Princess Royal
+Procellarum
+Professor
+Projector
+Prophecy
+Prosperity
+Prowler
+Proxima
+Psychosis
+Ptolemaeus
+Pulvarizer
+Puncture
+Punisher
+Punishment
+Purifier
+Pursuer
+Putredinis
+Pyro
+Quadraplegia
+Quadros
+Quattro
+Queen Catrin
+Queenie
+Queensryche
+Quick Fix
+Quota
+Rabies
+Radiation
+Radiotherapy
+Rage
+Ragnarok
+Ragnor
+Rainbow
+Rakshasa
+Ramhead
+Ramillies
+Rampager
+Random Grudge
+Randy
+Raptor
+Rapture
+Rathbeale
+Ravaged Innocent
+Ravager
+Raven
+Ravensport
+Razarik
+Razik
+Razor
+Reach
+Reactor
+Reactor Core
+Reality
+Reaper
+Rebel Thoughts
+Reckon
+Reckoning
+Recovery
+Rectangle
+Red
+Red Cap
+Red Cloud
+Red Dragon
+Red Jacket
+Red Queen
+Red Rover
+Redeemer
+Reformer
+Regret
+Regular
+Regularity
+Reliant
+Relic
+Remorse
+Renaissance
+Renner
+Renown
+Replica
+Repulse
+Requiem
+Resistance
+Resolution
+Retirement
+Retribution
+Revenant
+Revenge
+Revere
+Rheinland
+Rheita
+Rhythm
+Ribbon
+Richelieu
+Richenbacher
+Righteous Crusade
+Righteous Debutante
+Righteous Destroyer
+Righteous Fury
+Righteous Inquisition
+Righteous Retribution
+Riot
+Rip
+Ripper
+Rise
+River
+Robert Fox
+Robogoat
+Robot
+Roc
+Rodney
+Rogue
+Romance of the Seas
+Rondeau
+Roris
+Rosacea
+Roscommon
+Rose
+Rotten
+Rousseau
+Roxana
+Royal Oak
+Royal Sovereign
+Ruby
+Rumor
+Runeshear
+Runner
+Rutarian
+Ryse
+Sabine
+Sable
+Sacramental Whiskey
+Sacred Sow
+Sage
+Saladin
+Salamander
+Salamis
+Salinas
+Salivating Murder
+Salmonella
+Saluda
+Salvation
+Samson
+Samurai
+Sanctuary
+Sandraya
+Sandstorm
+Sanguine
+Sanity
+Santa Marta
+Santander
+Sapphire
+Saracen
+Sarin
+Sassanach
+Sassy
+Satellite Beach
+Satyr
+Saul
+Sausage
+Savage
+Savagery
+Savior
+Scar
+Scharnhorst
+Schattenaelfen
+Schaumberg
+Scheer
+Scheherazade
+Schizophrenia
+Schlesien
+Schwabenbraeu
+Science
+Scimitar
+Scion
+Scleroderma
+Scorch
+Scorcher
+Scorpion
+Scorpion's Sting
+Scottsmoor
+Scourge
+Scout Cube
+Scout Sphere
+Scoval
+Scumpus
+Scurvy
+Scylla
+Sea Serpent
+Sea Witch
+Seahorse
+Searing Bloodbath
+Sebastian
+Secondus
+Seducing Sister
+Seeker
+Seer
+Seeress
+Selim
+Sensei
+Sentinel
+Sentri
+Sequence
+Seraphim
+Serenity
+Serpent
+Severance
+Severe
+Shade
+Shadow
+Shadow Cruiser
+Shadow Fang
+Shadow Steel
+Shadowfang
+Shaldon
+Shark
+Shattercry
+Shatterskull
+Shenandoah
+Shieldbearer
+Shimmer
+Shredder
+Silence
+Silencer
 Silent Pyre
+Silver
+Silver Dragon
+Simmons
+Sin
+Singha
+Sinjar
+Sinster
+Siphon
+Sirius
+Sister of Abondon
+Sister of Contempt
+Sister of Sodomy
+Sitara
+Sitting Bull
+Skinripper
+Skull Crusher
+Skullcleaver
+Skullrender
+Skybastard
+Skychaser
+Skyrend
+Slammer
+Slane
+Slash
+Slasher
+Slayer
+Sleemans
+Sleeping Sickness
+Sleipnir
+Slice
+Slick
+Slime
+Slybone
+Smasher
+Smite
+Snake
+Snape
+Snarling Lunatic
+Social
+Sofa
+Software
+Solar
+Solaris
+Soldier
+Solo
+Solomon
+Somnambulism
+Sonar
+Sorcerer
+Sorrow
+Soul
+Soul Cleaver
+Soul Reaper
+Soulless
+Sound
+Sovereign of the Seas
+Space
+Sparrow
+Spaten
+Special
+Spectre
+Sphere
+Sphinx
+Spina Bifida
+Spindrift
+Spirit
+Spite
+Spitfire
+Spoiler
+Springfield
+Sprite
+Spy
+Stab
+Stadl
+Stag Hound
+Staircase
+Stalker
+Staphylococcus
+Star
+Star Knight
+Star League
+Starblazer
+Stargazer
+Starseer
+Steel
+Steelhead
+Stella
+Stella Artois
+Sternlicht
+Sticky Fingers
+Stienlager
+Stomach
+Stone Golem
+Storm
+Storm Edge
+Storm Giant
+Storm Herald
+Stormcaller
+Stormedge
+Stormfury
+Stormpiercer
+Stormtrooper
+Stornoway
+Stranger's Trust
+Strangler
+Strategic Defense
+Straub
+Streptococcus
+Stret Sweper
+Strider
+Strife
+Striker
+Stroke
+Structuresponsible
+Strychnine
+Stuffy
+Subutai
+Succubus
+Suffering
+Suffocation
+Sugar
+Suleiman
+Sulieman
+Sultan
+Sulust
+Sun's Warmth
+SunSword
+Sunday
+Sunset
+Superb
+Surak
+Survival
+Survivor
+Surya
+Suspension
+Sutherland
+Swarm
+Sweeper
+Sweet Chains
+Sweetie
+Swiften
+Sword
+Symptom
+Sync
+Syphilis
+TEN13
+Tachyon
+Tactics
+Tainted
+Tamer
+Tammerlane
+Tango Sierra
+Tank
+Tarrasque
+Taxes
+Teacher
+Tecate
+Techumseh
+Tecumbrah
+Temeraire
+Tempered Sister
+Tempest
+Temple of Agony
+Temple of Pain
+Temples Guardian
+Terix
+Terminator
+Terrible
+Terror
+Tesseract
+Test
+Thaddaeus
+The Axis of Kneivel
+The Butcher
+The Chancellor
+The End
+The Fool
+The Grim
+The Judge
+The Oculus
+The Thogomizer
+The Void
+Theophilus
+Thief
+Thing End Arrows
+Thomas
+Thor
+Thornlash
+Thoughtstealer
+Thunder
+Thunder Theighs
+Thunderer
+Tiger
+Timmy
+Timocharis
+Timour
+Tin Can
+Tinnitis
+Tiny
+Titan
+Titusville
+Tombaugh
+Tooheys
+Toothbroken Metal
+Toots
+Topaz
+Torbuck
+Torch
+Total Annihilation
+Toxicity
+Tracker
+Trafalgar
+Transparent
+Transporter
+Trapper
+Trauma
+Traveler
+Traveller
+Treachery
+Tremor
+Triangle
+Tribute
+Trichinosis
+Trinity
+Triton
+Triumph
+Troglodyte
+Trojan
+Troll
+Troubadour
+Trover
+TsinTao
+Tuberculosis
+Tuborg
+Tucher
+Tumour
+Turbulent
+Twilight
+Two Roses
+Tycho
+Tylweth Teg
+Tynan
+Typhoon
+Tyr
+Tyranny
+Tyrone
+Ubiquity
+Ultimatum
+Ultramatrix
+Ulysses
+Undaunted
+Undertaker
+Undine
+Undoing
+Unicorn
+Unimara
+Unimatrix
+Unity
+Vain
+Valiant
+Valkyrie
+Valley Forge
+Vampire
+Vanguard
+Vanquisher
+Vasachi
+Veltins
+Vengeance
+Vengeful
+Vengeful Crusader
+Vengeful Sister
+Venomburst
+Venomwire
+Victoria Bitter
+Victorious
+Victory
+Vigilant Templar
+Viking
+Vindex
+Vindicator
+Vindictive
+Viper
+Vipers Fist
+Vipers Kiss
+Virtuous Crusade
+Virtuous Debutante
+Virtuous Destroyer
+Virtuous Fury
+Virtuous Inquisition
+Virtuous Retribution
+Vixen
+Void
+Void Reaper
+Voidbane
+Vorchan
+Vorchar
+Vortex
+Vulcan
+Vulture
+Waepon
+Wanton Destruction
+Wanton Devotion
+Wanton Extinction
+Wanton Fervor
+War
+War Eagle
+Warbringer
+Warlock
+Warp
+Warpbrand
+Warrior
+Warsteiner
+Warzone
+Watcher
+Wayfarer
+Wealth
+Wellington
+Wendigo
+Werewolf
+Wernesgruener
+Wexford
+Weyland
+Whirlwind
+Whispers
+White Bunny
+White Dragon
+Whiteadder
+Whorfin
+Wicked
+Wicklow
+Wickueler
+Widow Maker
+Widowmaker
+Willbreaker
+Windreaper
+Windsong
+Winter's Bite
+Witch
+Witiigo
+Wizard
+Wolf
+Wolters
+Wood
+Worldslayer
+Wraith
+Wrath
+Wrecker
+Wyrm
+Wyvern
+Xdudimus
+Xerxes
+Yaii
+Yaksha
+Yamaguchi
+Yamato
+Yayo
+Yeti
+Youngblood
+Zayne
+Zealot of Corruption
+Zealous Sister
+Zendi
+Zero
+Zeus
+Zodiac
+Zodiak
+Zombie
+Zordar
