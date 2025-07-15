@@ -103,15 +103,6 @@ namespace SK_WeaponMastery
                 float roll = Rand.Value;
                 if (level == 1)
                 {
-                    if (ModSettings.useMoods)
-                    {
-                        bool shouldAddHediff = true;
-                        // Despised weapons do not give mood buffs
-                        if (ModsConfig.IdeologyActive && pawn.Ideo?.GetDispositionForWeapon(this.parent.def) == IdeoWeaponDisposition.Despised)
-                            shouldAddHediff = false;
-                        if (shouldAddHediff)
-                            pawn.health.AddHediff(Core.MasteredWeaponEquipped);
-                    }
                     if (weaponName == null && roll <= ModSettings.chanceToNameWeapon)
                     {
                         if (ModSettings.KeepOriginalWeaponNameQuality)
@@ -219,7 +210,7 @@ namespace SK_WeaponMastery
         {
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
             sb.AppendLine(base.GetDescriptionPart());
-            sb.AppendLine("SK_WeaponMastery_WeaponMasteryDescriptionItem".Translate());
+            sb.AppendLine("SK_WeaponMastery_WeaponMasteryDescriptionItemWeaponBond".Translate());
             List<KeyValuePair<Pawn, MasteryWeaponCompData>> data = bonusStatsPerPawn.ToList();
             string positiveValueColumn = ": +";
             string negativeValueColumn = ": ";
@@ -286,10 +277,7 @@ namespace SK_WeaponMastery
             SetCurrentOwner(pawn);
             if (ModSettings.useMoods && PawnHasMastery(pawn))
             {
-                // Despised weapons do not give mood buffs
-                if (ModsConfig.IdeologyActive && pawn.Ideo?.GetDispositionForWeapon(this.parent.def) == IdeoWeaponDisposition.Despised)
-                    return;
-                pawn.health.AddHediff(Core.MasteredWeaponEquipped);
+                if (ModsConfig.IdeologyActive && Utils.PawnIdeologyDespisesWeapon(pawn, this.parent)) return;
                 pawn.needs.mood.thoughts.memories.RemoveMemoriesOfDef(Core.MasteredWeaponUnequipped);
             }
         }
@@ -302,14 +290,12 @@ namespace SK_WeaponMastery
             if (PawnHasMastery(pawn))
             {
                 // Despised weapons do not give mood debuffs
-                if (ModsConfig.IdeologyActive && pawn.Ideo?.GetDispositionForWeapon(this.parent.def) == IdeoWeaponDisposition.Despised) return;
+                if (ModsConfig.IdeologyActive && Utils.PawnIdeologyDespisesWeapon(pawn, this.parent)) return;
                 // Is this a main/sidearm weapon switch?
                 if (Compat.SimpleSidearmsCompat.enabled && (Compat.SimpleSidearmsCompat.weaponSwitch || Compat.SimpleSidearmsCompat.PawnHasAnyMasteredWeapon(pawn))) return;
                 // Trying to strip a dead pawn
                 if (pawn.Dead) return;
                 pawn.needs.mood.thoughts.memories.TryGainMemory(Core.MasteredWeaponUnequipped);
-                if (pawn.health.hediffSet.HasHediff(Core.MasteredWeaponEquipped))
-                    pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(Core.MasteredWeaponEquipped));
             }
         }
 

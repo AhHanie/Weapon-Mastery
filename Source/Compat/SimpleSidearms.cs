@@ -62,8 +62,10 @@ namespace SK_WeaponMastery.Compat
             // Animals have no equipment
             if (owner == null || owner.equipment == null || owner.needs.mood == null ||  PawnHasAnyMasteredWeapon(owner)) return;
 
-            if (owner.health.hediffSet.HasHediff(Core.MasteredWeaponEquipped))
-                owner.health.RemoveHediff(owner.health.hediffSet.GetFirstHediffOfDef(Core.MasteredWeaponEquipped));
+            if (ModSettings.useMoods && ModsConfig.IdeologyActive && !Utils.PawnIdeologyDespisesWeapon(owner, owner.equipment.Primary))
+            {
+                owner.needs.mood.thoughts.memories.TryGainMemory(Core.MasteredWeaponUnequipped);
+            }
         }
 
         /// <summary>

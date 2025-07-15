@@ -46,8 +46,8 @@ namespace SK_WeaponMastery
             initialLoad = true;
             base.ExposeData();
             Scribe_Collections.Look(ref experiencePerLevel, "experienceperlevel", LookMode.Value);
-            Scribe_Collections.Look(ref rangedStats, true, "rangedstats", LookMode.Deep);
-            Scribe_Collections.Look(ref meleeStats, true, "meleestats", LookMode.Deep);
+            Scribe_Collections.Look(ref rangedStats, "rangedstats", true, LookMode.Deep);
+            Scribe_Collections.Look(ref meleeStats, "meleestats", true, LookMode.Deep);
             Scribe_Values.Look(ref maxLevel, "maxLevel", 3);
             Scribe_Values.Look(ref chanceToNameWeapon, "chancetonameweapon", 0.35f);
             Scribe_Values.Look(ref bondedWeaponExperienceMultipier, "bondedweaponexperiencemultipier", 1.5f);

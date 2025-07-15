@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+    <defName>SK_WM_MasteredWeaponEquipped</defName>
+    <workerClass>SK_WeaponMastery.ThoughtWorker_MasteredWeaponEquipped</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Favorite Weapon Equipped</label>
+        <description>I feel like I can take an army with this weapon.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SK_WM_MasteredWeaponUnequipped</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Favorite Weapon Lost</label>
+        <description>Oh, what am I going to do without that weapon?</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

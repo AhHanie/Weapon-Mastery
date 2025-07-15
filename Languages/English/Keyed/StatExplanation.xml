@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LanguageData>
-    <SK_WeaponMastery_WeaponMasteryDescriptionItem>Weapon Mastery: </SK_WeaponMastery_WeaponMasteryDescriptionItem>
+    <SK_WeaponMastery_WeaponMasteryDescriptionItemWeaponBond>Weapon Bond: </SK_WeaponMastery_WeaponMasteryDescriptionItemWeaponBond>
+    <SK_WeaponMastery_WeaponMasteryDescriptionItem>Stat Bonus: </SK_WeaponMastery_WeaponMasteryDescriptionItem>
     <SK_WeaponMastery_WeaponMasteryDescriptionTitleRelicBonus>Relic Bonuses: </SK_WeaponMastery_WeaponMasteryDescriptionTitleRelicBonus>
-    <SK_WeaponMastery_StatWeaponMastery>Weapon Mastery</SK_WeaponMastery_StatWeaponMastery>
+    <SK_WeaponMastery_StatWeaponMastery>Weapon Class Mastery</SK_WeaponMastery_StatWeaponMastery>
 </LanguageData>

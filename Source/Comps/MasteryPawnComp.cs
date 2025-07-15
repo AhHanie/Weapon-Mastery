@@ -106,7 +106,7 @@ namespace SK_WeaponMastery
         public void GenerateDescription()
         {
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
-            sb.AppendLine("SK_WeaponMastery_WeaponMasteryDescriptionItem".Translate());
+            sb.AppendLine("SK_WeaponMastery_StatWeaponMastery".Translate());
             List<KeyValuePair<string, MasteryCompData>> data = bonusStatsPerClass.ToList();
             string positiveValueColumn = ": +";
             string negativeValueColumn = ": ";

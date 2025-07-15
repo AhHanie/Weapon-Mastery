@@ -31,7 +31,6 @@ namespace SK_WeaponMastery
             else
                 ModSettings.ResolveStats();
             Core.MasteredWeaponUnequipped = DefDatabase<ThoughtDef>.AllDefsListForReading.Find((ThoughtDef def) => def.defName == "SK_WM_MasteredWeaponUnequipped");
-            Core.MasteredWeaponEquipped = DefDatabase<HediffDef>.AllDefsListForReading.Find((HediffDef def) => def.defName == "SK_WM_MasteredWeaponEquippedBonusMood");
             Core.AddMasteryWeaponCompToWeaponDefsAndSetClasses();
             Core.OverrideClasses();
             if (ModSettings.useGeneralMasterySystem)

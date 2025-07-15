@@ -11,7 +11,7 @@
     <SK_WeaponMastery_ModSettingsSectionBondedWeaponExperienceMultiplierLabel>Bonded weapon experience multiplier: </SK_WeaponMastery_ModSettingsSectionBondedWeaponExperienceMultiplierLabel>
     <SK_WeaponMastery_ModSettingsSectionRelicBonusStatsNumberLabel>Number of bonus stats for relic: </SK_WeaponMastery_ModSettingsSectionRelicBonusStatsNumberLabel>
     <SK_WeaponMastery_ModSettingsSectionRelicBonusStatsNumberTooltip>Bonuses only apply to pawns that believe in the relic's ideology</SK_WeaponMastery_ModSettingsSectionRelicBonusStatsNumberTooltip>
-    <SK_WeaponMastery_ModSettingsSectionSpecificMasterySystemLabel>[*]Enable Specific Mastery System</SK_WeaponMastery_ModSettingsSectionSpecificMasterySystemLabel>
+    <SK_WeaponMastery_ModSettingsSectionSpecificMasterySystemLabel>[*]Enable Weapon Bond System</SK_WeaponMastery_ModSettingsSectionSpecificMasterySystemLabel>
     <SK_WeaponMastery_ModSettingsSectionSpecificMasterySystemTooltip>A pawn mastering an assault rifle will not master ALL assault rifles but only THE assault rifle that is in their possession</SK_WeaponMastery_ModSettingsSectionSpecificMasterySystemTooltip>
     <SK_WeaponMastery_ModSettingsSectionGeneralMasterySystemLabel>[*]Enable Class Mastery System</SK_WeaponMastery_ModSettingsSectionGeneralMasterySystemLabel>
     <SK_WeaponMastery_ModSettingsSectionGeneralMasterySystemTooltip>A pawn mastering an assault rifle will master ALL assault rifles NOT only the assault rifle that is in their possession</SK_WeaponMastery_ModSettingsSectionGeneralMasterySystemTooltip>
@@ -24,7 +24,7 @@
     <SK_WeaponMastery_ModSettingsSectionMasteryGroupPercentage>Percentage of pawns that should spawn with a mastery from a group</SK_WeaponMastery_ModSettingsSectionMasteryGroupPercentage>
     <SK_WeaponMastery_ModSettingsSectionMasteryWeaponNameChancePerPawn>Weapon name chance per pawn</SK_WeaponMastery_ModSettingsSectionMasteryWeaponNameChancePerPawn>
     <SK_WeaponMastery_ModSettingsUseMoodsCheckboxLabel>[*]Weapon mood buff/debuff</SK_WeaponMastery_ModSettingsUseMoodsCheckboxLabel>
-    <SK_WeaponMastery_ModSettingsUseMoodsCheckboxTooltip>When equipping a mastered weapon, pawn gains a mood bonus and vice versa (Specific Weapon Mastery Only)</SK_WeaponMastery_ModSettingsUseMoodsCheckboxTooltip>
+    <SK_WeaponMastery_ModSettingsUseMoodsCheckboxTooltip>When equipping a mastered weapon, pawn gains a mood bonus and vice versa (Weapon Bond System Only)</SK_WeaponMastery_ModSettingsUseMoodsCheckboxTooltip>
     <SK_WeaponMastery_LevelSectionTitle>Levels Section: </SK_WeaponMastery_LevelSectionTitle>
     <SK_WeaponMastery_LevelSectionDetail>Add or remove mastery levels up to a max of 15 levels. Each time a pawn levels up, they will get a random stat bonus.</SK_WeaponMastery_LevelSectionDetail>
     <SK_WeaponMastery_LevelSectionAddButton>Add Level</SK_WeaponMastery_LevelSectionAddButton>

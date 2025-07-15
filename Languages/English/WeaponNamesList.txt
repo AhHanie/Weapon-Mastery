@@ -640,7 +640,7 @@ Defiler
 Automatic
 Corpse Tyrant
 Eternal Punishment
-Enternal
+Eternal
 Punishment
 Punisher
 Last Breath
@@ -648,3 +648,53 @@ Red Queen
 Blue Rose
 Yamato
 Bad News
+Buck Thunder
+Thor
+Amigo
+Last Word
+Knight's Fall
+Vengeance
+Frankenstein
+The Chancellor
+The Void
+Bloodfury
+Lockjaw
+Stormfury
+Ole Betsy
+Shadow Steel
+Ubiquity
+Shadow Fang
+Iron Whisper
+Crimson Vow
+Void Reaper
+Storm Edge
+Blight Fang
+Frost Rend
+Soul Cleaver
+Ash Breaker
+Night Howl
+Skyrend
+Gravemaw
+Emberlash
+Stormpiercer
+Voidbane
+Frostbite
+Ironbark
+Venomburst
+Runeshear
+Bloodsong
+Dreadspire
+Iron Mirage
+Skullrender
+Nightveil
+Blazefury
+Storm Herald
+Thornlash
+Echofang
+Mooncleaver
+Ash Whisper
+Shattercry
+Grimhowl
+Bonebite
+Warpbrand
+Silent Pyre

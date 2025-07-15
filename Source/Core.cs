@@ -12,7 +12,6 @@ namespace SK_WeaponMastery
     {
         private static bool writeLock;
         public static ThoughtDef MasteredWeaponUnequipped;
-        public static HediffDef MasteredWeaponEquipped;
 
         // Add mastery experience to shooter pawn
         public static void OnPawnShoot(Verb_Shoot __instance)
@@ -80,7 +79,6 @@ namespace SK_WeaponMastery
                 MasteryStat mStat = ModSettings.rangedStats[i];
                 StatDef stat = mStat.GetStat();
                 injected.Add(stat);
-                // I hope this is ok
                 if (stat.parts == null) stat.parts = new List<StatPart>();
                 stat.parts.Add(new StatPart_Mastery(stat));
             }
@@ -90,7 +88,6 @@ namespace SK_WeaponMastery
                 StatDef stat = mStat.GetStat();
                 if (injected.Contains(stat)) continue;
                 injected.Add(stat);
-                // I hope this is ok
                 if (stat.parts == null) stat.parts = new List<StatPart>();
                 stat.parts.Add(new StatPart_Mastery(stat));
             }
@@ -113,38 +110,6 @@ namespace SK_WeaponMastery
                 StatDef stat = mStat.GetStat();
                 if (stat.parts.Any((StatPart item) => item is StatPart_Mastery))
                     stat.parts = stat.parts.Where((StatPart item) => !(item is StatPart_Mastery)).ToList();
-            }
-        }
-
-        // Update MasteryWeaponComp owner in a weapon
-        public static void OnPawnEquipThing(Pawn_EquipmentTracker __instance, ThingWithComps eq)
-        {
-            if (eq.def.equipmentType == EquipmentType.Primary)
-            {
-                MasteryWeaponComp comp = eq.TryGetComp<MasteryWeaponComp>();
-                if (comp == null || !comp.IsActive()) return;
-                comp.SetCurrentOwner(__instance.pawn);
-                if (ModSettings.useMoods && comp.PawnHasMastery(__instance.pawn))
-                {
-                    __instance.pawn.health.AddHediff(MasteredWeaponEquipped);
-                    __instance.pawn.needs.mood.thoughts.memories.RemoveMemoriesOfDef(MasteredWeaponUnequipped);
-                }
-            }
-        }
-
-        // When pawns unequips item
-        public static void OnPawnEquipRemove(Pawn_EquipmentTracker __instance, ThingWithComps eq)
-        {
-            if (eq.def.equipmentType == EquipmentType.Primary)
-            {
-                MasteryWeaponComp comp = eq.TryGetComp<MasteryWeaponComp>();
-                if (comp == null || !comp.IsActive()) return;
-                if (comp.PawnHasMastery(__instance.pawn))
-                {
-                    __instance.pawn.needs.mood.thoughts.memories.TryGainMemory(MasteredWeaponUnequipped);
-                    if (__instance.pawn.health.hediffSet.HasHediff(MasteredWeaponEquipped))
-                        __instance.pawn.health.RemoveHediff(__instance.pawn.health.hediffSet.GetFirstHediffOfDef(MasteredWeaponEquipped));
-                }
             }
         }
 

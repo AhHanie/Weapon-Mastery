@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <SK_WM_MasteredWeaponEquipped.stages.0.description>I feel like I can take an army with this weapon.</SK_WM_MasteredWeaponEquipped.stages.0.description>
+  <SK_WM_MasteredWeaponEquipped.stages.0.label>Favorite Weapon Equipped</SK_WM_MasteredWeaponEquipped.stages.0.label>
+  <SK_WM_MasteredWeaponUnequipped.stages.0.description>Oh, what am I going to do without that weapon?</SK_WM_MasteredWeaponUnequipped.stages.0.description>
+  <SK_WM_MasteredWeaponUnequipped.stages.0.label>Favorite Weapon Lost</SK_WM_MasteredWeaponUnequipped.stages.0.label>
+</LanguageData>

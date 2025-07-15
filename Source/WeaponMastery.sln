@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29318.209
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponMastery", "WeaponMastery.csproj", "{9B6F33C5-E008-4EC6-B364-C5DB7640F5BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly-CSharp", "..\..\..\..\..\..\..\Modding\Rimworld\Game Source Code\Assembly-CSharp.csproj", "{AC1CECC9-8E23-48E3-B811-712A4E9E689F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "..\..\Rimworld Source Code\Assembly-CSharp.csproj", "{89D5C019-BE0C-084B-54A0-7DD38DC06E97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9B6F33C5-E008-4EC6-B364-C5DB7640F5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B6F33C5-E008-4EC6-B364-C5DB7640F5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B6F33C5-E008-4EC6-B364-C5DB7640F5BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC1CECC9-8E23-48E3-B811-712A4E9E689F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC1CECC9-8E23-48E3-B811-712A4E9E689F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC1CECC9-8E23-48E3-B811-712A4E9E689F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC1CECC9-8E23-48E3-B811-712A4E9E689F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D5C019-BE0C-084B-54A0-7DD38DC06E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D5C019-BE0C-084B-54A0-7DD38DC06E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D5C019-BE0C-084B-54A0-7DD38DC06E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D5C019-BE0C-084B-54A0-7DD38DC06E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
