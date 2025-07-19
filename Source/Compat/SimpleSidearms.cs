@@ -57,12 +57,12 @@ namespace SK_WeaponMastery.Compat
             foreach (Thing t in list)
                 if (t is Pawn)
                     owner = t as Pawn;
-
+            MasteryWeaponComp comp = item.TryGetComp<MasteryWeaponComp>();
             // Misc Robots have no mood
             // Animals have no equipment
-            if (owner == null || owner.equipment == null || owner.needs.mood == null ||  PawnHasAnyMasteredWeapon(owner)) return;
-
-            if (ModSettings.useMoods && ModsConfig.IdeologyActive && !Utils.PawnIdeologyDespisesWeapon(owner, owner.equipment.Primary))
+            if (owner == null || comp == null || !comp.IsActive() || !comp.PawnHasMastery(owner) 
+                || owner.needs.mood == null) return;
+            if (ModSettings.useMoods && ModsConfig.IdeologyActive && !Utils.PawnIdeologyDespisesWeapon(owner, item))
             {
                 owner.needs.mood.thoughts.memories.TryGainMemory(Core.MasteredWeaponUnequipped);
             }
