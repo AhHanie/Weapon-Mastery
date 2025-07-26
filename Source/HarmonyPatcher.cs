@@ -15,11 +15,6 @@ namespace SK_WeaponMastery
 
         public static void PatchVanillaMethods()
         {
-            if (instance == null)
-            {
-                Logger.WriteToHarmonyFile("Missing harmony instance");
-                return;
-            }
             // Patch Verb_Shoot WarmupComplete method
             MethodInfo warmupCompleteMethod = AccessTools.Method(typeof(Verb_Shoot), "WarmupComplete");
             HarmonyMethod onPawnShootMethod = new HarmonyMethod(typeof(Core).GetMethod("OnPawnShoot"));

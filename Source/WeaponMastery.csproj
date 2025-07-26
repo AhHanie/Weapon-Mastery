@@ -64,7 +64,6 @@
     <Compile Include="DefModExtension_Mastery.cs" />
     <Compile Include="Files.cs" />
     <Compile Include="HarmonyPatcher.cs" />
-    <Compile Include="Logger.cs" />
     <Compile Include="Comps\MasteryWeaponComp.cs" />
     <Compile Include="Comps\Data\MasteryCompData.cs" />
     <Compile Include="Comps\Data\MasteryWeaponCompData.cs" />

@@ -8,7 +8,6 @@ namespace SK_WeaponMastery
     // Main mod file
     public class WeaponMasteryMod : Mod
     {
-        public static bool SHOULD_PRINT_LOG = false;
         // Mod name in about.xml
         public static string modName;
         private static string rootDirectory;
@@ -20,7 +19,7 @@ namespace SK_WeaponMastery
             HarmonyPatcher.SetInstance(instance);
 
             // Fires when all Defs are loaded
-            LongEventHandler.ExecuteWhenFinished(Init);
+            LongEventHandler.QueueLongEvent(Init, "SK_WeaponMastery.Init", true, null);
         }
 
         public void Init()
