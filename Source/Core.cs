@@ -201,7 +201,7 @@ namespace SK_WeaponMastery
                             }
                             comp.SetLevel(selectedPawn, statsCount);
                             float weaponNameRoll = Rand.Value;
-                            if (weaponNameRoll <= ModSettings.eventWeaponNameChance) comp.GenerateWeaponName();
+                            if (ModSettings.eventWeaponNameChance > 0 && weaponNameRoll <= ModSettings.eventWeaponNameChance) comp.GenerateWeaponName();
                             comp.GenerateDescription();
                             bonusAdded = true;
                         }

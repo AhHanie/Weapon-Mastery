@@ -103,7 +103,7 @@ namespace SK_WeaponMastery
                 float roll = Rand.Value;
                 if (level == 1)
                 {
-                    if (weaponName == null && roll <= ModSettings.chanceToNameWeapon)
+                    if (weaponName == null && ModSettings.chanceToNameWeapon > 0 && roll <= ModSettings.chanceToNameWeapon)
                     {
                         if (ModSettings.KeepOriginalWeaponNameQuality)
                             weaponName = $"\"{ModSettings.PickWeaponName()}\" {this.parent.LabelCap}";
