@@ -30,8 +30,10 @@ namespace SK_WeaponMastery
                 Pawn pawn = req.Thing as Pawn;
                 if (pawn == null || pawn.equipment?.Primary == null) return;
                 MasteryWeaponComp comp = pawn.equipment.Primary.TryGetComp<MasteryWeaponComp>();
-                if (comp == null || !comp.IsActive()) return;
-                val += comp.GetCombinedBonus(parentStat);
+                if (comp != null && comp.IsActive())
+                {
+                    val += comp.GetCombinedBonus(parentStat);
+                }
 
                 Pawn owner = comp.GetCurrentOwner();
                 if (owner == null) return;
@@ -63,8 +65,10 @@ namespace SK_WeaponMastery
                 Pawn pawn = req.Thing as Pawn;
                 if (pawn == null || pawn.equipment?.Primary == null) return "";
                 MasteryWeaponComp comp = pawn.equipment.Primary.TryGetComp<MasteryWeaponComp>();
-                if (comp == null || !comp.IsActive()) return "";    
-                bonus += comp.GetCombinedBonus(parentStat);
+                if (comp != null && comp.IsActive())
+                {
+                    bonus += comp.GetCombinedBonus(parentStat);
+                }
 
                 Pawn owner = comp.GetCurrentOwner();
                 if (owner != null)
