@@ -25,7 +25,7 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
   </modDependencies>
-  <modVersion>2.3.6</modVersion>
+  <modVersion>2.3.7</modVersion>
   <description>
     Adds a new simple weapon mastery mechanic into the game. Pawns use the same weapon for a decent amount of time, naturally they should start getting better at handling/using said weapon. This mod adds a new hidden skill that levels up as pawns use their weapons (similar to shooting/melee). Pawns will gradually receive some minor randomized bonuses from mastering weapons and will also rename their weapon for sentimental value.</description>
 </ModMetaData>

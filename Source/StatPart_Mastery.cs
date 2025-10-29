@@ -35,9 +35,7 @@ namespace SK_WeaponMastery
                     val += comp.GetCombinedBonus(parentStat);
                 }
 
-                Pawn owner = comp.GetCurrentOwner();
-                if (owner == null) return;
-                MasteryPawnComp compPawn = comp.GetCurrentOwner().TryGetComp<MasteryPawnComp>();
+                MasteryPawnComp compPawn = pawn.TryGetComp<MasteryPawnComp>();
                 if (compPawn == null || !compPawn.IsActive() || !ModSettings.classes.ContainsKey(pawn.equipment.Primary.def)) return;
                 val += compPawn.GetStatBonus(ModSettings.classes[pawn.equipment.Primary.def], parentStat);
             }
@@ -70,13 +68,9 @@ namespace SK_WeaponMastery
                     bonus += comp.GetCombinedBonus(parentStat);
                 }
 
-                Pawn owner = comp.GetCurrentOwner();
-                if (owner != null)
-                {
-                    MasteryPawnComp compPawn = comp.GetCurrentOwner().TryGetComp<MasteryPawnComp>();
-                    if (compPawn != null && compPawn.IsActive() && ModSettings.classes.ContainsKey(pawn.equipment.Primary.def))
-                        bonus += compPawn.GetStatBonus(ModSettings.classes[pawn.equipment.Primary.def], parentStat);
-                }
+                MasteryPawnComp compPawn = pawn.TryGetComp<MasteryPawnComp>();
+                if (compPawn != null && compPawn.IsActive() && ModSettings.classes.ContainsKey(pawn.equipment.Primary.def))
+                    bonus += compPawn.GetStatBonus(ModSettings.classes[pawn.equipment.Primary.def], parentStat);
             }
             else if (req.HasThing && req.Thing.def.HasComp(typeof(MasteryWeaponComp)))
             {
