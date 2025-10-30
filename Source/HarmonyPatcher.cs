@@ -59,6 +59,11 @@ namespace SK_WeaponMastery
                 HarmonyMethod onInfoWindowSetup = new HarmonyMethod(typeof(Core).GetMethod("OnInfoWindowSetup"));
                 instance.Patch(setupMethod, null, onInfoWindowSetup);
             }
+
+            // Patch Pawn GetGizmos method
+            MethodInfo getGizmosMethod = AccessTools.Method(typeof(Pawn), "GetGizmos");
+            HarmonyMethod displayAdditionalPawnGizmosMethod = new HarmonyMethod(typeof(Core).GetMethod("DisplayAdditionalPawnGizmos"));
+            instance.Patch(getGizmosMethod, null, displayAdditionalPawnGizmosMethod);
         }
 
         public static void SetInstance(Harmony instance)

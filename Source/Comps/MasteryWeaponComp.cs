@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using RimWorld;
+using System.Collections.Generic;
 using System.Linq;
-using RimWorld;
 using Verse;
 
 namespace SK_WeaponMastery
@@ -105,10 +105,7 @@ namespace SK_WeaponMastery
                 {
                     if (weaponName == null && ModSettings.chanceToNameWeapon > 0 && roll <= ModSettings.chanceToNameWeapon)
                     {
-                        if (ModSettings.KeepOriginalWeaponNameQuality)
-                            weaponName = $"\"{ModSettings.PickWeaponName()}\" {this.parent.LabelCap}";
-                        else
-                            weaponName = ModSettings.PickWeaponName();
+                        GenerateWeaponName();
                         Messages.Message(ModSettings.messages.RandomElement().Translate(pawn.NameShortColored, weaponName), MessageTypeDefOf.NeutralEvent);
                     }
                 }
@@ -245,7 +242,7 @@ namespace SK_WeaponMastery
         public void GenerateWeaponName()
         {
             if (ModSettings.KeepOriginalWeaponNameQuality)
-                weaponName = $"\"{ModSettings.PickWeaponName()}\" {this.parent.LabelCap}";
+                weaponName = $"{this.parent.LabelCap} \"{ModSettings.PickWeaponName()}\"";
             else
                 weaponName = ModSettings.PickWeaponName();
         }
@@ -302,6 +299,27 @@ namespace SK_WeaponMastery
         public void SetLevel(Pawn pawn, int level)
         {
             bonusStatsPerPawn[pawn].SetMasteryLevel(level);
+        }
+
+        public override IEnumerable<Gizmo> CompGetGizmosExtra()
+        {
+            if (DebugSettings.ShowDevGizmos && isActive)
+            {
+                yield return new Command_Action()
+                {
+                    defaultLabel = "Reset Name",
+                    icon = null,
+                    action = () =>
+                    {
+                        weaponName = null;
+                    }
+                };
+            }
+        }
+
+        public void ResetWeaponName()
+        {
+            weaponName = null;
         }
     }
 }

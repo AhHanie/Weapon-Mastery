@@ -20,7 +20,7 @@
     <SK_WeaponMastery_ModSettingsSectionDisplayExperienceLabel>[*]Display Experience</SK_WeaponMastery_ModSettingsSectionDisplayExperienceLabel>
     <SK_WeaponMastery_ModSettingsSectionDisplayExperienceTooltip>Display experience needed to level up for each weapon in the info tab</SK_WeaponMastery_ModSettingsSectionDisplayExperienceTooltip>
     <SK_WeaponMastery_ModSettingsSectionKeepOriginalNameAndQualityLabel>Keep Original Name and Quality</SK_WeaponMastery_ModSettingsSectionKeepOriginalNameAndQualityLabel>
-    <SK_WeaponMastery_ModSettingsSectionKeepOriginalNameAndQualityTooltip>When a weapon name is generated, the mod will keep the original weapon's name and quality in the generated name. Example: "Boomer" Revolver (normal). Do keep in mind this might make certain weapon names too long to be fully displayed.</SK_WeaponMastery_ModSettingsSectionKeepOriginalNameAndQualityTooltip>
+    <SK_WeaponMastery_ModSettingsSectionKeepOriginalNameAndQualityTooltip>When a weapon name is generated, the mod will keep the original weapon's name and quality in the generated name. Example: Revolver (normal) "Boomer". Do keep in mind this might make certain weapon names too long to be fully displayed.</SK_WeaponMastery_ModSettingsSectionKeepOriginalNameAndQualityTooltip>
     <SK_WeaponMastery_ModSettingsSectionMasteryGroupPercentage>Percentage of pawns that should spawn with a mastery from a group</SK_WeaponMastery_ModSettingsSectionMasteryGroupPercentage>
     <SK_WeaponMastery_ModSettingsSectionMasteryWeaponNameChancePerPawn>Weapon name chance per pawn</SK_WeaponMastery_ModSettingsSectionMasteryWeaponNameChancePerPawn>
     <SK_WeaponMastery_ModSettingsUseMoodsCheckboxLabel>[*]Weapon mood buff/debuff</SK_WeaponMastery_ModSettingsUseMoodsCheckboxLabel>

@@ -311,5 +311,31 @@ namespace SK_WeaponMastery
             }
             return DefDatabase<ThingDef>.AllDefs.Where(Predicate).ToList();
         }
+
+        public static IEnumerable<Gizmo> DisplayAdditionalPawnGizmos(IEnumerable<Gizmo> values, Pawn __instance)
+        {
+            foreach (var value in values)
+                yield return value;
+            if (DebugSettings.ShowDevGizmos)
+            {
+                if (__instance.equipment == null || __instance.equipment.Primary == null)
+                {
+                    yield break;
+                }
+                MasteryWeaponComp comp = __instance.equipment.Primary.TryGetComp<MasteryWeaponComp>();
+                if (comp != null && comp.IsActive())
+                {
+                    yield return new Command_Action()
+                    {
+                        defaultLabel = "Reset Weapon Name",
+                        icon = null,
+                        action = () =>
+                        {
+                            comp.ResetWeaponName();
+                        }
+                    };
+                }
+            }
+        }
     }
 }
