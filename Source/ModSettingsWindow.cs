@@ -7,6 +7,7 @@ using Verse;
 namespace SK_WeaponMastery
 {
     // Responsible for drawing modsettings ui window and updating modsettings  
+    [StaticConstructorOnStartup]
     public static class ModSettingsWindow
     {
         public static int selectedLevelIndex;
@@ -62,7 +63,7 @@ namespace SK_WeaponMastery
             isRangedStatPercentage = IsStatDefPercentage(selectedRangedDef);
             isMeleeStatPercentage = IsStatDefPercentage(selectedMeleeDef);
             allWeapons = Core.GetModWeapons().ToList();
-            cachedWeaponTexture = ContentFinder<Texture2D>.Get(allWeapons[selectedWeaponIndex].graphicData.texPath, true);
+            cachedWeaponTexture = allWeapons[selectedWeaponIndex].uiIcon;
             allClasses = new List<string>();
             foreach (string gmclass in ModSettings.classes.Values)
                 if (!allClasses.Contains(gmclass))
