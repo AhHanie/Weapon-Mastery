@@ -183,34 +183,10 @@
 					</value>
 				</li>
 				<li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="VWE_Gun_Musket"]</xpath>
-					<value>
-						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
-							<gmclass>Rifle</gmclass>
-						</li>
-					</value>
-				</li>
-				<li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="VWE_Gun_Flintlock"]</xpath>
-					<value>
-						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
-							<gmclass>Pistol</gmclass>
-						</li>
-					</value>
-				</li>
-				<li Class ="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="VWE_Throwing_Knives"]</xpath>
 					<value>
 						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
 							<gmclass>Thrown</gmclass>
-						</li>
-					</value>
-				</li>
-				<li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="VWE_Tool_Whip"]</xpath>
-					<value>
-						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
-							<gmclass>Whip</gmclass>
 						</li>
 					</value>
 				</li>
@@ -263,14 +239,6 @@
 					</value>
 				</li>
 				<li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]</xpath>
-					<value>
-						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
-							<gmclass>Sniper Rifle</gmclass>
-						</li>
-					</value>
-				</li>
-				<li Class ="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="VWE_Gun_ChargeMinigun"]</xpath>
 					<value>
 						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
@@ -278,7 +246,7 @@
 						</li>
 					</value>
 				</li>
-      <li Class ="PatchOperationAddModExtension">
+				<li Class ="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="VWE_Gun_GrenadeLauncher"]</xpath>
 					<value>
 						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
@@ -286,7 +254,7 @@
 						</li>
 					</value>
 				</li>
-       <li Class ="PatchOperationAddModExtension">
+				<li Class ="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="VWE_Gun_Flamethrower"]</xpath>
 					<value>
 						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
@@ -294,30 +262,22 @@
 						</li>
 					</value>
 				</li>
-       <li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="VWE_Gun_FireExtinguisher"]</xpath>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWE_Gun_RocketLauncher"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Launcher</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]</xpath>
 					<value>
 						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
 							<gmclass>Thrower</gmclass>
 						</li>
 					</value>
 				</li>
-        <li Class ="PatchOperationAddModExtension">
-          <xpath>Defs/ThingDef[defName="VWE_Gun_RocketLauncher"]</xpath>
-          <value>
-            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
-              <gmclass>Launcher</gmclass>
-            </li>
-          </value>
-        </li>
-        <li Class ="PatchOperationAddModExtension">
-          <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]</xpath>
-          <value>
-            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
-              <gmclass>Thrower</gmclass>
-            </li>
-          </value>
-        </li>
 			</operations>
 		</match>
 	</Operation>
