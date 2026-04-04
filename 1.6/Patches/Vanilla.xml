@@ -208,21 +208,27 @@
       </li>
     </value>
   </Operation>
-  <Operation Class ="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Gun_SmokeLauncher"]</xpath>
-    <value>
-      <li Class="SK_WeaponMastery.DefModExtension_Mastery">
-        <gmclass>Launcher</gmclass>
-      </li>
-    </value>
+  <Operation Class="PatchOperationConditional">
+  	<xpath>Defs/ThingDef[defName="Gun_SmokeLauncher"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_SmokeLauncher"]</xpath>
+		<value>
+			<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+				<gmclass>Launcher</gmclass>
+			</li>
+		</value>
+	</match>
   </Operation>
-  <Operation Class ="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Gun_EmpLauncher"]</xpath>
-    <value>
-      <li Class="SK_WeaponMastery.DefModExtension_Mastery">
-        <gmclass>Launcher</gmclass>
-      </li>
-    </value>
+  <Operation Class="PatchOperationConditional">
+  	<xpath>Defs/ThingDef[defName="Gun_EmpLauncher"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_EmpLauncher"]</xpath>
+		<value>
+			<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+				<gmclass>Launcher</gmclass>
+			</li>
+		</value>
+	</match>
   </Operation>
   <Operation Class ="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>

@@ -6,21 +6,28 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<li Class ="PatchOperationAddModExtension" MayRequire="ludeon.rimworld.biotech">
+				<!-- CE removes this from -->
+				<li Class="PatchOperationConditional" MayRequire="ludeon.rimworld.biotech">
 					<xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]</xpath>
-					<value>
-						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
-							<gmclass>Launcher</gmclass>
-						</li>
-					</value>
+					<match Class="PatchOperationAddModExtension">
+						<xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]</xpath>
+						<value>
+							<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+								<gmclass>Launcher</gmclass>
+							</li>
+						</value>
+					</match>
 				</li>
-				<li Class ="PatchOperationAddModExtension" MayRequire="ludeon.rimworld.biotech">
+				<li Class="PatchOperationConditional" MayRequire="ludeon.rimworld.biotech">
 					<xpath>Defs/ThingDef[defName="Flamebow"]</xpath>
-					<value>
-						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
-							<gmclass>Bow</gmclass>
-						</li>
-					</value>
+					<match Class="PatchOperationAddModExtension">
+						<xpath>Defs/ThingDef[defName="Flamebow"]</xpath>
+						<value>
+							<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+								<gmclass>Launcher</gmclass>
+							</li>
+						</value>
+					</match>
 				</li>
 			</operations>
 		</match>
