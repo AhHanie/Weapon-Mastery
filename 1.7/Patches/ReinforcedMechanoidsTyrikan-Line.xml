@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Reinforced Mechanoids: Tyrikan-Line</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RM_Gun_ReinforcedChargeLMG"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Machine Gun</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RM_Gun_ChargeSidearm"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RM_Gun_ChargeLanceRevolver"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="RM_Gun_ChargeLanceRifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Sniper Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="RM_Gun_ReinforcedCoilPistol"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Pistol</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="RM_ReinforcedCoilRifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

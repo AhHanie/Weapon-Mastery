@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Pirates</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VFEP_WarcasketMeleeWeapon_CombatKnife"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Bladed</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VFEP_WarcasketMeleeWeapon_Broadsword"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Bladed</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VFEP_WarcasketMeleeWeapon_GravityHammer"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Blunt</gmclass>
+						</li>
+					</value>
+				</li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_Autorifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_UraniumSlugRifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Sniper Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_Slugthrower"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Shotgun</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_Minigun"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Machine Gun</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_GrenadeLauncher"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Launcher</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_HeavyFlamer"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Thrower</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_ChargeLance"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Sniper Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_HandheldCannon"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Launcher</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_ChargeBlaster"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Laser</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_SalvagedLaserEradicator"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Rifle</gmclass>
+                  </li>
+                </value>
+              </li>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_LaserBlaster"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Rifle</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Coilguns</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_Railgun"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Sniper Rifle</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Factions Expanded - Insectoids</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketMeleeWeapon_PlasmaSword"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Bladed</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Factions Expanded - Vikings</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_CryptoCannon"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Thrower</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Non-Lethal</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_TearGasGrenadeLauncher"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Launcher</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Quickdraw</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VFEP_WarcasketGun_FoldingGun"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Machine Gun</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

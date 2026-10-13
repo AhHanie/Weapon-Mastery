@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim-Effect: Asari and Reapers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RE_MeleeWeapon_AsariSword"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Bladed</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RE_Gun_AsariAssaultRifle"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Rifle</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RE_Gun_AsariShotgun"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Shotgun</gmclass>
+						</li>
+					</value>
+				</li>
+      	<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RE_Gun_AsariSniperRifle"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Sniper Rifle</gmclass>
+						</li>
+					</value>
+				</li>
+	<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="RE_Bullet_AsariPistol"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

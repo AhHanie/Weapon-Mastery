@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Frontier</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Quickdraw</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_Derringer"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Pistol</gmclass>
+                  </li>
+                </value>
+              </li>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_LeverActionShotgun"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Shotgun</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Heavy Weapons</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_HandheldGatlingGun"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Machine Gun</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Laser</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserRevolver"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Pistol</gmclass>
+                  </li>
+                </value>
+              </li>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserRepeater"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Rifle</gmclass>
+                  </li>
+                </value>
+              </li>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserHuntingRifle"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Sniper Rifle</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Weapons Expanded - Coilguns</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_GaussRevolver"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Pistol</gmclass>
+                  </li>
+                </value>
+              </li>
+              <li Class ="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="VWEFT_Gun_GaussRepeater"]</xpath>
+                <value>
+                  <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+                    <gmclass>Rifle</gmclass>
+                  </li>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWEFT_Gun_HeavyRevolver"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWEFT_Gun_VolcanicPistol"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWEFT_Gun_FrontierPistol"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWEFT_Gun_RollingBlockRifle"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Sniper Rifle</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Shotgun</gmclass>
+						</li>
+					</value>
+				</li>
+        
+        
+        
+        
+        
+			</operations>
+		</match>
+	</Operation>
+</Patch>

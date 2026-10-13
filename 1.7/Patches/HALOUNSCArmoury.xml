@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>HALO: UNSC Armoury</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HUA_Gun_AdvancedMagnum"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Pistol</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HUA_Gun_AdvancedAssaultRifle"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Rifle</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HUA_Gun_AdvancedBattleRifle"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Rifle</gmclass>
+						</li>
+					</value>
+				</li>
+      	<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HUA_Gun_AdvancedDMR"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Sniper Rifle</gmclass>
+						</li>
+					</value>
+				</li>
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HUA_Gun_AdvancedShotgun"]</xpath>
+					<value>
+						<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+							<gmclass>Shotgun</gmclass>
+						</li>
+					</value>
+				</li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="HUA_Gun_AdvancedSniperRifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Sniper Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="HUA_Gun_ChargeStanchion"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Sniper Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="HUA_Gun_HeavyChargeRifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+        <li Class ="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="HUA_Gun_Anti-TankLaserRifle"]</xpath>
+          <value>
+            <li Class="SK_WeaponMastery.DefModExtension_Mastery">
+              <gmclass>Sniper Rifle</gmclass>
+            </li>
+          </value>
+        </li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

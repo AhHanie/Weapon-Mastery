@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Unique variants (*_Unique) inherit their parent weapon's class, and
+	     Gun_Scattergun is only mounted on sentry drones, so the beam repeater
+	     is the only new weapon needing a general mastery class. -->
+	<Operation Class="PatchOperationAddModExtension" MayRequire="ludeon.rimworld.odyssey">
+		<xpath>Defs/ThingDef[defName="Gun_BeamRepeater"]</xpath>
+		<value>
+			<li Class="SK_WeaponMastery.DefModExtension_Mastery">
+				<gmclass>Machine Gun</gmclass>
+			</li>
+		</value>
+	</Operation>
+</Patch>
